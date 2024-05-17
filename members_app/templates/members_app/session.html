@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Session Page</title>
+</head>
+<body>
+    <h1>Session Data</h1>
+    <ul>
+        {% for key, value in session_items %}
+            <li>{{ key }}: {{ value }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
