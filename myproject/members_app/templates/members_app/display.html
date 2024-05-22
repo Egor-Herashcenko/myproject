@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Display User Input</title>
+</head>
+<body>
+    <h1>User Inputs</h1>
+    <ul>
+        {% for input in user_inputs %}
+            <li>{{ input.input_text }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
